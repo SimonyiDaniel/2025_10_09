@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877cb7f9323?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&w=1000&q=80");
+}
+
+nav{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
