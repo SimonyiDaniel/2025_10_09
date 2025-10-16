@@ -1,0 +1,17 @@
+/* Extra pizzas page - Gold theme */
+body{
+    background-image: url("../kepek/image.png");
+}
+
+div.card{
+    background-color: rgba(184, 134, 11, 0.9);
+    border: 2px solid rgba(255, 215, 0, 0.5);
+}
+
+div.card:hover {
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.6);
+}
+
+.nav-brand::before {
+    content: "⭐ ";
+}

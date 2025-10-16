@@ -1,0 +1,17 @@
+/* Calzone page - Brown theme */
+body{
+    background-image: url("../kepek/image.png");
+}
+
+div.card{
+    background-color: rgba(139, 69, 19, 0.9);
+    border: 2px solid rgba(210, 105, 30, 0.5);
+}
+
+div.card:hover {
+    box-shadow: 0 8px 25px rgba(210, 105, 30, 0.6);
+}
+
+.nav-brand::before {
+    content: "🥟 ";
+}

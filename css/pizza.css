@@ -1,0 +1,127 @@
+body{
+    background-image: url("kepek/image.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(40,20,0,0.9));
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.nav-brand {
+    font-size: 1.8em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    background: linear-gradient(135deg, rgb(255, 169, 71), rgb(255, 140, 40));
+    color: rgb(27, 0, 0);
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+nav a:hover{
+    background: linear-gradient(135deg, rgb(200, 50, 50), rgb(150, 33, 33));
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(200,50,50,0.4);
+}
+
+.almenu{
+    display: none;
+    background: rgba(20,20,20,0.95);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+
+.almenu a {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 10px 18px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.almenu a:hover {
+    background: rgba(255,169,71,0.2);
+    transform: none;
+}
+
+.fomenu{
+    position: relative;
+}
+
+.fomenu:hover .almenu{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    margin-top: 10px;
+    min-width: 200px;
+}
+
+div.alap{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+div.card{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    background-color: rgba(75, 0, 145, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.card div{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.card div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card{
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+div.card button{
+    font-size: inherit;
+    font-family: inherit;
+    
+}

@@ -1,0 +1,17 @@
+/* Vega pizzas page - Green theme */
+body{
+    background-image: url("../kepek/image.png");
+}
+
+div.card{
+    background-color: rgba(34, 139, 34, 0.9);
+    border: 2px solid rgba(50, 205, 50, 0.5);
+}
+
+div.card:hover {
+    box-shadow: 0 8px 25px rgba(50, 205, 50, 0.6);
+}
+
+.nav-brand::before {
+    content: "🌿 ";
+}
