@@ -1,4 +1,4 @@
-/* Main styles - shared across all pages */
+
 body{
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -9,7 +9,6 @@ body{
     padding: 0;
 }
 
-/* Navigation styles */
 nav{
     background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(40,20,0,0.9));
     position: sticky;
@@ -89,7 +88,6 @@ nav a:hover{
     min-width: 200px;
 }
 
-/* Card container */
 div.alap{
     display: flex;
     flex-wrap: wrap;
@@ -99,7 +97,6 @@ div.alap{
     padding: 20px;
 }
 
-/* Card styles */
 div.card{
     display: flex;
     flex-direction: column;
